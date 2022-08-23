@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --eth: hsl(178, 100%, 50%);
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'outfit', sans-serif;
+}
+
+body{
+    background-color: var(--main-BG);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 27%;
+    height: 90vh;
+    border: 1px solid var(--card-BG);
+    background-color: var(--card-BG);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 5%;
+}
+
+.cube{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 43vh;
+    border-radius: 20px;
+    margin-bottom: 4%;
+}
+
+.firstp:hover, span:hover{
+    color: var(--eth);
+}
+
+h3{
+    color: var(--White);
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.firstp{
+    color: var(--Soft-blue);
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+.fa{
+    padding: 5px;
+}
+
+.fa-brands{
+    padding: 5px;
+}
+
+ul{
+    display: flex;
+    gap: 25%;
+    padding: 10px 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.secondp{
+    color: var(--eth);
+}
+
+.thirdp{
+    color: var(--Soft-blue);
+}
+
+footer{
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid var(--blue-line);
+    margin-top: 5%;
+}
+
+footer img{
+    width: 14%;
+    padding: 5px;
+}
+
+footer p{
+    padding: 5px;
+    color: var(--Soft-blue);
+}
+
+footer span{
+    color: var(--White);
+}
+
+@media screen and (max-width: 1115px){
+    .container{
+        width: 35%;
+        height: 85vh;
+    }
+    .cube{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .container{
+        width: 40%;
+        height: 86vh;
+    }
+    .cube{
+        height: 41vh;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .container{
+        width: 45%;
+        height: 87vh;
+    }
+
+    .cube{
+        height: 42vh;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .container{
+        width: 50%;
+        height: 87vh;
+    }
+
+    .cube{
+        height: 43vh;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .container{
+        width: 56%;
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 60%;
+        height: 87vh;
+    }
+
+    .cube{
+        width: 97%;
+        height: 42vh;
+    }
+
+    ul{
+        gap: 20%;
+    }
+
+    .firstp{
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .container{
+        width: 65%;
+        height: 84vh;
+    }
+
+    .cube{
+        width: 97%;
+        height: 40vh;
+    }
+
+    ul{
+        gap: 18%;
+    }
+}
+
+@media screen and (max-width: 485px){
+    .container{
+        width: 70%;
+        height: 82vh;
+    }
+
+    .cube{
+        width: 97%;
+        height: 38vh;
+    }
+
+    ul{
+        gap: 18%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container{
+        width: 75%;
+        height: 84vh;
+    }
+
+    .cube{
+        width: 97%;
+        height: 40vh;
+    }
+
+    ul{
+        gap: 18%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .container{
+        width: 80%;
+        height: 84vh;
+    }
+
+    .cube{
+        width: 97%;
+        height: 40vh;
+    }
+
+    ul{
+        gap: 18%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        width: 90%;
+        height: 82vh;
+    }
+
+    .cube{
+        width: 98%;
+        height: 38vh;
+    }
+
+    ul{
+        gap: 18%;
+    }
+}
+
+@media screen and (max-width: 371px){
+    .container{
+        width: 95%;
+        height: 81vh;
+    }
+
+    .cube{
+        width: 98%;
+        height: 37vh;
+    }
+
+    ul{
+        gap: 18%;
+    }
+}
+
+/*350
+
+
